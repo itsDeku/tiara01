@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+#root {
+    position: static;
+
+    background: linear-gradient(180deg, rgba(254, 74, 74, 0.885215) 0%, #FFFFFF 100%);
+}
+
+
+#diamond-narrow {
+    position: fixed;
+    z-index: -1  ;
+    width: 0;
+    height: 0;
+    border: 187px solid transparent;
+    border-width: 187px 187px 406px;
+    border-style: solid;
+    border-color: red;
+    border-bottom: 406px solid red;
+    top: -187px;
+  }
+  #diamond-narrow:after {
+    content: '';
+    position: absolute;
+    left: -187px;
+    top: 405px;
+    width: 0;
+    height: 0;
+    border: 187px solid transparent;
+    border-top: 406px solid red;
+  }
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 375px;
+    height: 300px;
+    top: 10%;
+}
+
+.login-text {
+
+    width: 80%;
+    height: 71px;
+    margin-left: 5%;
+    margin-top: 150px;
+
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: lighter !important ;
+    font-size: 48px;
+    line-height: 54px;
+
+    color: #000000;
+
+
+}
+.inpt { 
+    outline: none;
+    width: 90%;
+    margin-left: 5%;
+    height: 55px;
+    margin-top: 25px;
+  
+    /* text */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    
+    color: rgba(10, 10, 10, 0.75);
+
+}
+.inpt label {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.inp {
+
+    left: 12px;
+    top: 338px;
+    right: 0%;
+    bottom: 0%;
+
+    padding: 15px;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.inp-button {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: #FFFFFF;
+    background: #BE0A0A;
+    border: 2px solid #BE0A0A;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.recommand-registering {
+    margin-top: 5%;
+    text-align: center;
+    top: 350px;
+    
+}

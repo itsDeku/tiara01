@@ -1,0 +1,70 @@
+.my-navbar{
+    z-index: 1;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.my-nav-brand{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+}
+.brand-logo{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 24px; 
+    color: rgba(0, 0, 0, 0.9);
+}
+.nav-brand-name{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 15%;
+}
+.brand-name{
+    position: absolute;
+    top:15%;
+    left: 5%;
+    
+
+    /* font style */
+    
+    font-family: 'Quintessential', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.nav-search{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 70%;
+}
+.search-logo{
+    position: absolute;
+    top: 5%;
+    left: -15%;
+    font-size: 24px; 
+    color: rgba(0, 0, 0, 0.9);
+}
+.nav-dehaze{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 85%;
+}
+.dehaze-logo{
+    position: absolute;
+    top: 5%;
+    left: -15%;
+    font-size: 24px; 
+    color: rgba(0, 0, 0, 0.9);
+}

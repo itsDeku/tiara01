@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+.body {
+  /* body */
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 40px;
+
+  background: #ffffff;
+}
+
+.profile-contants {
+  /* profile-contants */
+
+  width: 100%;
+  height: fit-content;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.coverImg {
+  /* Frame 12 */
+
+  width: 100%;
+  height: 170px;
+  left: 0px;
+  top: 1px;
+  /* border: 1px solid rgba(51, 51, 51, 0.25); */
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.postsimg {
+  width: 80px;
+  height: 80px;
+  left: 21px;
+  top: 141px;
+}
+.profilePic {
+  /* Ellipse */
+  position: absolute;
+
+  width: 80px;
+  height: 80px;
+  left: 21px;
+  top: 121px;
+  border-radius: 50%;
+}
+.profilePic img {
+  border-radius: 40%;
+}
+
+.editButton {
+  position: absolute;
+  width: 126px;
+  height: 25px;
+  left: 180px;
+  top: 156px;
+
+  background: #d53d29;
+  border-radius: 5px;
+}
+
+.editButton span {
+  color: #fff;
+}
+
+.username {
+  /* Misterioussoul48 */
+
+  position: absolute;
+  width: 181.82px;
+  height: 18.23px;
+  left: 94.98px;
+  top: 200px;
+}
+.tags{
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  top: 220px;
+}
+.username span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #000000;
+}
+.username a{
+  position: absolute;
+  top: 16px;
+}
+
+.userBio {
+  margin-top: 78px;
+  left: 6.13%;
+  right: 8.53%;
+  bottom: 21.19%;
+  margin: 21% 5% 1% 5%;
+  height: max-content;
+
+}
+
+.userBio span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.83);
+}
+
+.posts-data {
+  width: 100%;
+  margin: 0;
+}
+.posts {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #000000;
+ 
+}
+.posts-no {
+  position: absolute;
+  font-weight: 500;
+  font-size: 18px;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.posts-text {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.followers {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #000000;
+
+}
+.followers-no {
+  position: absolute;
+  font-weight: 500;
+  font-size: 18px;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.followers-text {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.following {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #000000;
+ 
+}
+.following-no {
+  position: absolute;
+  font-weight: 500;
+  font-size: 18px;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.following-text {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  top: 50%;
+  width: 100%;
+  text-align: center; 
+}
+ 
+/* POSTS BOX profile-posts */
+
+.profile-posts {
+ width: 100%;
+ margin: 0;
+}
+.posta{
+  height: 70;
+}
+.posts-box {
+  
+  width: 33%;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  background: rgb(250, 250, 250);
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 3px;
+}
+
+.add-posts {
+  position: absolute;
+  width: 50px;
+  height: 40%;
+  left: 30%;
+  top: 30%;
+  color: rgba(51, 51, 51, 0.2);
+  font-size: 50px;
+}

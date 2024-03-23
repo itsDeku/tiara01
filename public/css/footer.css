@@ -1,0 +1,92 @@
+/* FOOTER */
+.footer { 
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    /* Inside Auto Layout */
+}
+.monetize {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    
+}
+.monetize-logo {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.seprator{
+    position: absolute;
+    top: 15%;
+    right :-26%;
+    font-size: 30px;
+    color:black;
+
+    transform: rotate(-90deg);
+    
+}
+.favorite {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 20%;
+    
+}
+.favorite-logo {
+    position: absolute;
+    top:15%;
+    left: 30%;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.add-post-2{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 40%;
+    
+}
+.add-post-2-logo {
+    position: absolute;
+    top:15%;
+    left: 30%;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.chats { 
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 60%;
+    
+}
+.chats-logo {
+    position: absolute;
+    top:15%;
+    left: 30%;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.8);
+}
+.account {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 80%;
+    
+}
+.account-logo {
+    position: absolute;
+    top:15%;
+    left: 30%;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.8);
+}   
